@@ -1,0 +1,21 @@
+__MACOSX
+$$DeleteMe*
+$Recycle.Bin
+autoexec.bat
+Boot
+boot.ini
+bootfont.bin
+bootmgr
+BOOTSECT.BAK
+Config.Msi
+config.sys
+IO.SYS
+MSDOS.SYS
+NTDETECT.COM
+ntldr
+pagefile.sys
+recycled
+recycler
+system volume information
+treeinfo.ncd
+treeinfo.wc

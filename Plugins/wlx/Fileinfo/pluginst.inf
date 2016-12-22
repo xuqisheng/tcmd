@@ -1,5 +1,0 @@
-[plugininstall]
-description=Version Information Viewer Ver 2.22 - x64 - Static library linked
-type=wlx
-file=fileinfo.wlx
-defaultdir=fileinfo
