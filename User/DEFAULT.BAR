@@ -1,7 +1,8 @@
 [Buttonbar]
-Buttoncount=28
+Buttoncount=30
 button1=wcmicons.dll,56
 cmd1=%COMMANDER_PATH%\USER\TOOLS.BAR
+iconic1=0
 menu1=¹¤¾ßÀ¸
 button2=
 iconic2=0
@@ -76,3 +77,9 @@ button28=notepad.exe
 cmd28=notepad.exe
 iconic28=0
 menu28=Notepad
+button29=
+iconic29=0
+button30=%COMMANDER_PATH%\TOOLS\Everything\Everything.exe
+cmd30=em_EVERYTHING
+iconic30=0
+menu30=EverythingËÑË÷
