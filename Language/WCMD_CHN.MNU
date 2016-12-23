@@ -170,14 +170,14 @@ POPUP "视图(&G)"
     MENUITEM SEPARATOR    
     MENUITEM "状态栏(&T)", 2909
     MENUITEM "命令行(&M)", 2910
-    MENUITEM "功能键按钮(&K)\tAlt+3", 2911
-    MENUITEM SEPARATOR    
+    MENUITEM "功能键按钮(&K)", 2911
+    MENUITEM SEPARATOR
     MENUITEM "当前文件夹(&U)", 2907
     MENUITEM "排序控制行(&A)", 2908
     MENUITEM SEPARATOR
     MENUITEM "历史/常用按钮(&S)", 2919
     MENUITEM "驱动器按钮(&D)", 2902
-    MENUITEM "双驱动器按钮(&2)\tAlt+1", 2903
+    MENUITEM "双驱动器按钮(&2)", 2903
     MENUITEM "驱动器列表(&C)", 2906
     MENUITEM SEPARATOR
     MENUITEM "忽略列表(&G)\tShift+Ctrl+I", 2922

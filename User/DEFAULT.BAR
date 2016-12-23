@@ -1,5 +1,5 @@
 [Buttonbar]
-Buttoncount=31
+Buttoncount=32
 button1=wcmicons.dll,56
 cmd1=%COMMANDER_PATH%\User\Tools.BAR
 iconic1=0
@@ -79,10 +79,13 @@ iconic28=0
 menu28=Notepad
 button29=
 iconic29=0
-button30=%COMMANDER_PATH%\Plugins\wfx\Uninstaller64\Uninstaller64.wfx64,1
-cmd30=em_UNINSTALLER
-menu30=Ð¶ÔØ³ÌÐò
-button31=%COMMANDER_PATH%\Tools\Everything\Everything.exe
-cmd31=em_EVERYTHING
+button30=%Commander_path%\Plugins\wfx\Procfs\procfs.wfx64
+cmd30=em_ProcFC
+button31=%COMMANDER_PATH%\Plugins\wfx\Uninstaller64\Uninstaller64.wfx64
+cmd31=em_UNINSTALLER
 iconic31=0
-menu31=EverythingËÑË÷
+menu31=Ð¶ÔØ³ÌÐò
+button32=%COMMANDER_PATH%\Tools\Everything\Everything.exe
+cmd32=em_EVERYTHING
+iconic32=0
+menu32=EverythingËÑË÷
