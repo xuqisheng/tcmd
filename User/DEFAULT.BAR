@@ -1,7 +1,7 @@
 [Buttonbar]
 Buttoncount=31
 button1=wcmicons.dll,56
-cmd1=%COMMANDER_PATH%\USER\Tools.BAR
+cmd1=%COMMANDER_PATH%\User\Tools.BAR
 iconic1=0
 menu1=¹¤¾ßÀ¸
 button2=
