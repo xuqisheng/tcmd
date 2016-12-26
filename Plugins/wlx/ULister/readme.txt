@@ -1,4 +1,4 @@
-1. About Viewer Technology
+1. About
 uLister is a powerful document viewer which can open more than 500 file formats.
 2. Supported formats
 Many popular word processing, spreadsheet, presentation, raster and vector image.
