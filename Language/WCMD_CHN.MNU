@@ -140,25 +140,6 @@ POPUP "应用(&A)"
         MENUITEM "用户帐户\tUA", em_UA
 END_POPUP
 
-POPUP "标签(&T)"
-    MENUITEM "交换所有标签(&A)\tAlt+7 或 Shift+Ctrl+U", 535
-  	MENUITEM "在新标签打开(&W)\tCtrl+↑", 3003
-    MENUITEM "在侧窗新建标签并打开(&O)\tCtrl+↓ 或 Shift+Ctrl+↑", 3004
-    MENUITEM SEPARATOR
-	  MENUITEM "上一标签(&V)\tShift+Ctrl+Tab", 3006
-	  MENUITEM "下一标签(&X)\tCtrl+Tab", 3005
-    MENUITEM "激活第一个标签 - 来源窗口(&S)\tAlt+Home", 5001
-    MENUITEM "激活第一个标签 - 目标窗口(&A)\tAlt+End", 5101
-    MENUITEM SEPARATOR
-	  MENUITEM "锁定标签(&L)\tCtrl+Num *", 3010
-	  MENUITEM "锁定标签 - 允许更改文件夹(&Y)\tCtrl+K", 3012
-	  MENUITEM SEPARATOR
-	  MENUITEM "关闭标签(&E)\tCtrl+W", 3007
-	  MENUITEM "关闭所有标签 - 非活动及未锁定(&U)\tShift+Ctrl+W", 3008
-    MENUITEM SEPARATOR
-    MENUITEM "显示标签右键菜单(&C)\tCtrl+8", 3009
-END_POPUP
-
 POPUP "视图(&G)"
     MENUITEM "工具栏(&B)\tAlt+2", 2901
     MENUITEM "导航栏(&R)", 2926
@@ -167,7 +148,7 @@ POPUP "视图(&G)"
         MENUITEM "两侧(&D)\tShift+Alt+L", 3205
         MENUITEM "切换模式(&T)\tShift+Ctrl+F8", 3203
     END_POPUP
-    MENUITEM SEPARATOR    
+    MENUITEM SEPARATOR
     MENUITEM "状态栏(&T)", 2909
     MENUITEM "命令行(&M)", 2910
     MENUITEM "功能键按钮(&K)", 2911
@@ -196,8 +177,6 @@ POPUP "视图(&G)"
     END_POPUP
     MENUITEM "覆盖图标(&Y)", 2917
 END_POPUP
-
-STARTMENU
 
 HELP_BREAK
 
