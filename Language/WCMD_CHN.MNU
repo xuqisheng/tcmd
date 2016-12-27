@@ -59,7 +59,7 @@ POPUP "命令(&C)"
   MENUITEM "后退(&B)\tAlt+向左键", 570
   MENUITEM SEPARATOR
   MENUITEM "打开命令提示符(&D)...\tAlt+C", 511
-  MENUITEM "命令提示符窗口 (管理员)...\tAlt+Shift+C", em_ext_CMDELEVATED
+  MENUITEM "命令提示符窗口 (管理员)...\tAlt+Shift+C", em_CMDELEVATED
   MENUITEM SEPARATOR
   MENUITEM "展开所有文件夹(&A)\tCtrl+B", 2026
   MENUITEM "打开桌面文件夹(&O)", 2121
