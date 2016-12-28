@@ -7,6 +7,7 @@ POPUP "文件(&F)"
   MENUITEM "文件关联(&A)...", 507
   MENUITEM "内部关联(仅用于 Total Commander)(&L)...", 519
   MENUITEM "属性(&.)...\tAlt+Enter", 510
+  MENUITEM "计算所有子文件夹占用的空间...\tAlt+Shift+Enter", 2014
   MENUITEM "计算占用空间(&O)...\tCtrl+L", 503
   MENUITEM "批量重命名(&R)...\tCtrl+M", 2400
   MENUITEM "编辑文件备注(&N)...\tCtrl+Z", 2700
@@ -59,7 +60,7 @@ POPUP "命令(&C)"
   MENUITEM "后退(&B)\tAlt+向左键", 570
   MENUITEM SEPARATOR
   MENUITEM "打开命令提示符(&D)...\tAlt+C", 511
-  MENUITEM "命令提示符窗口 (管理员)...\tAlt+Shift+C", em_CMDELEVATED
+  MENUITEM "打开命令提示符(管理员)...\tAlt+Shift+C", em_CMDELEVATED
   MENUITEM SEPARATOR
   MENUITEM "展开所有文件夹(&A)\tCtrl+B", 2026
   MENUITEM "打开桌面文件夹(&O)", 2121
