@@ -29,6 +29,7 @@
 		<format description="bzip2" guid="{23170F69-40C1-278A-1000-000110020000}">
 			<ext val="bz2" />
 			<ext val="bzip2" />
+			<ext val="dmg" />
 			<ext val="tbz" />
 			<ext val="tbz2" />
 		</format>
@@ -49,11 +50,13 @@
 		</format>
 		<format description="7z" guid="{23170F69-40C1-278A-1000-000110070000}">
 			<ext val="7z" />
+			<ext val="zip" />
 		</format>
 		<format description="Cab" guid="{23170F69-40C1-278A-1000-000110080000}">
 			<ext val="cab" />
 		</format>
 		<format description="Nsis" guid="{23170F69-40C1-278A-1000-000110090000}">
+			<ext val="exe" />
 			<ext val="nsis" />
 		</format>
 		<format description="lzma" guid="{23170F69-40C1-278A-1000-0001100A0000}">
