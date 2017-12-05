@@ -56,6 +56,7 @@
 			<ext val="cab" />
 		</format>
 		<format description="Nsis" guid="{23170F69-40C1-278A-1000-000110090000}">
+			<ext val="7z" />
 			<ext val="exe" />
 			<ext val="nsis" />
 		</format>
