@@ -7,6 +7,7 @@ POPUP "文件(&F)"
   MENUITEM "文件关联(&A)...", 507
   MENUITEM "内部关联(仅用于 Total Commander)(&L)...", 519
   MENUITEM "属性(&.)...\tAlt+Enter", 510
+  MENUITEM "计算所有子文件夹占用的空间...\tAlt+Shift+Enter", 2014
   MENUITEM "计算占用空间(&O)...\tCtrl+L", 503
   MENUITEM "批量重命名(&R)...\tCtrl+M", 2400
   MENUITEM "编辑文件备注(&N)...\tCtrl+Z", 2700
@@ -20,7 +21,7 @@ POPUP "文件(&F)"
   MENUITEM "合并文件(&M)...", 561
   MENUITEM "编码文件(MIME、UUE、XXE)(&E)...", 562
   MENUITEM "解码文件(MIME、UUE、XXE、BinHex)(&D)...", 563
-  MENUITEM "创建校验和文件(CRC32、MD5、SHA1)(&H)...", 564
+  MENUITEM "创建校验和文件(CRC32、MD5、SHA1)(&H)...\tCtrl+1", 564
   MENUITEM "验证校验和(根据校验和文件)(&V)", 565
   MENUITEM SEPARATOR
   MENUITEM "退出(&Q)\tAlt+F4", 24340
@@ -58,7 +59,8 @@ POPUP "命令(&C)"
   MENUITEM "常用文件夹(&H)\tCtrl+D", 526
   MENUITEM "后退(&B)\tAlt+向左键", 570
   MENUITEM SEPARATOR
-  MENUITEM "打开命令提示符(&D)", 511
+  MENUITEM "打开命令提示符(&D)...\tAlt+C", 511
+  MENUITEM "打开命令提示符(管理员)...\tAlt+Shift+C", em_CMDELEVATED
   MENUITEM SEPARATOR
   MENUITEM "展开所有文件夹(&A)\tCtrl+B", 2026
   MENUITEM "打开桌面文件夹(&O)", 2121
@@ -126,16 +128,82 @@ POPUP "配置(&O)"
   MENUITEM "保存设置(&V)", 580
 END_POPUP
 
+POPUP "应用(&A)"
+        MENUITEM "事件查看器\tEV", em_EV
+        MENUITEM "共享文件夹\tSF", em_SF
+        MENUITEM "本地用户和组\tLUG", em_LUG
+        MENUITEM "设备管理器\tDEV", em_DEV
+        MENUITEM "磁盘管理\tDM", em_DM
+        MENUITEM "服务\tSVR", em_SVR
+        MENUITEM SEPARATOR
+        MENUITEM "组策略\tGP", em_GP
+        MENUITEM "证书\tCRT", em_CRT
+        MENUITEM "性能\tPFM", em_PFM
+        MENUITEM "用户帐户\tUA", em_UA
+END_POPUP
+
+POPUP "标签(&T)"
+    MENUITEM "交换所有标签(&A)\tAlt+7 或 Shift+Ctrl+U", 535
+  	MENUITEM "在新标签打开(&W)\tCtrl+↑", 3003
+    MENUITEM "在侧窗新建标签并打开(&O)\tCtrl+↓ 或 Shift+Ctrl+↑", 3004
+    MENUITEM SEPARATOR
+	  MENUITEM "上一标签(&V)\tShift+Ctrl+Tab", 3006
+	  MENUITEM "下一标签(&X)\tCtrl+Tab", 3005
+    MENUITEM "激活第一个标签 - 来源窗口(&S)\tAlt+Home", 5001
+    MENUITEM "激活第一个标签 - 目标窗口(&A)\tAlt+End", 5101
+    MENUITEM SEPARATOR
+	  MENUITEM "锁定标签(&L)\tCtrl+Num *", 3010
+	  MENUITEM "锁定标签 - 允许更改文件夹(&Y)\tCtrl+K", 3012
+	  MENUITEM SEPARATOR
+	  MENUITEM "关闭标签(&E)\tCtrl+W", 3007
+	  MENUITEM "关闭所有标签 - 非活动及未锁定(&U)\tShift+Ctrl+W", 3008
+    MENUITEM SEPARATOR
+    MENUITEM "显示标签右键菜单(&C)\tCtrl+8", 3009
+END_POPUP
+
+POPUP "视图(&G)"
+    MENUITEM "工具栏(&B)\tAlt+2", 2901
+    MENUITEM "导航栏(&R)", 2926
+    POPUP "侧边栏(&L)"
+        MENUITEM "左侧(&L)\tAlt+L", 3204
+        MENUITEM "两侧(&D)\tShift+Alt+L", 3205
+        MENUITEM "切换模式(&T)\tShift+Ctrl+F8", 3203
+    END_POPUP
+    MENUITEM SEPARATOR
+    MENUITEM "状态栏(&T)", 2909
+    MENUITEM "命令行(&M)", 2910
+    MENUITEM "功能键按钮(&K)\tAlt+3", 2911
+    MENUITEM SEPARATOR
+    MENUITEM "当前文件夹(&U)", 2907
+    MENUITEM "排序控制行(&A)", 2908
+    MENUITEM SEPARATOR
+    MENUITEM "历史/常用按钮(&S)", 2919
+    MENUITEM "驱动器按钮(&D)", 2902
+    MENUITEM "双驱动器按钮(&2)\tAlt+1", 2903
+    MENUITEM "驱动器列表(&C)", 2906
+    MENUITEM SEPARATOR
+    MENUITEM "忽略列表(&G)\tShift+Ctrl+I", 2922
+    MENUITEM "系统/隐藏文件(&H)\tCtrl+H", 2011
+    MENUITEM "长文件名(&L)", 2010
+    MENUITEM "文件名小写 - 8.3 格式(&W)", 2013
+    MENUITEM SEPARATOR
+    MENUITEM "同步切换两侧文件夹(&N)\tAlt+J", 2600
+    MENUITEM "文件夹按名称排序(&O)", 2012
+    MENUITEM "自动刷新(&I)", 2921
+    MENUITEM SEPARATOR
+    MENUITEM "XP/Vista 主题背景(&X)", 2923
+    POPUP "视效(&E)"
+        MENUITEM "扁平按钮 [9x](&B)", 2904
+        MENUITEM "扁平界面 [9x](&I)", 2905
+    END_POPUP
+    MENUITEM "覆盖图标(&Y)", 2917
+END_POPUP
+
 STARTMENU
 
 HELP_BREAK
 
 POPUP "帮助(&H)"
-  MENUITEM "帮助索引(&I)\tF1", 610
-  MENUITEM "快捷键列表(&K)", 620
-  MENUITEM "注册信息(&R)", 630
   MENUITEM "访问 Totalcmd 网站(&V)", 640
-  MENUITEM "检查更新(&C)", 650
-  MENUITEM SEPARATOR
   MENUITEM "关于 Total Commander (&A)...", 690
 END_POPUP
