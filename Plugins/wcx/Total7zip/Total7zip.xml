@@ -186,6 +186,7 @@
 			<ext val="dmg" />
 		</format>
 		<format description="Compound" guid="{23170F69-40C1-278A-1000-000110E50000}">
+			<ext val="7z" />
 			<ext val="doc" />
 			<ext val="msi" />
 			<ext val="msp" />
